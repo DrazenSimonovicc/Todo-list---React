@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.section-center {
+  width: 550px;
+  margin: 100px auto;
+}
+.clear-btn {
+  display: flex;
+  align-items: center;
+}
+.alert-success {
+  background-color: #07bc0c;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px;
+}
+.alert-danger {
+  background-color: #e74c3c;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+.form-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px;
+  gap: 30px;
+}
+input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  font-family: inherit;
+  border: none;
+  border-bottom: 3px solid #06b6d4;
+}
+input:focus {
+  outline: none;
+  border: 3px solid #06b6d4;
+}
+.submit-btn {
+  width: 100px;
+  height: 40px;
+  background-color: #06b6d4;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.clear-btn-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clear-btn {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  background-color: #06b6d4;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.submit-btn:hover {
+  background-color: #0e7490;
+}
+h3 {
+  text-align: center;
+  font-size: 24px;
+}
+.edit-btn {
+  background-color: #fff;
+  border: none;
+  color: #07bc0c;
+  cursor: pointer;
+}
+.delete-btn {
+  background-color: #fff;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+}
+alert {
+  padding: 10px;
+}
+.text {
+  margin: 10px auto;
+  font-size: 12px;
+}
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
